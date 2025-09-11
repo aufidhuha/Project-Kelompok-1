@@ -37,6 +37,7 @@ public class mainFrame extends javax.swing.JFrame {
         buttonAura = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -65,6 +66,7 @@ public class mainFrame extends javax.swing.JFrame {
 
         buttonAufi.setBackground(new java.awt.Color(0, 51, 153));
         buttonAufi.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonAufi.setForeground(new java.awt.Color(255, 255, 255));
         buttonAufi.setText("PROFIL AUFI ");
         buttonAufi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,22 +76,27 @@ public class mainFrame extends javax.swing.JFrame {
 
         buttonHelmy.setBackground(new java.awt.Color(0, 51, 153));
         buttonHelmy.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonHelmy.setForeground(new java.awt.Color(255, 255, 255));
         buttonHelmy.setText("PROFIL HELMY ");
 
         buttonWahyu.setBackground(new java.awt.Color(0, 51, 153));
         buttonWahyu.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonWahyu.setForeground(new java.awt.Color(255, 255, 255));
         buttonWahyu.setText("PROFIL WAHYU ");
 
         buttonIsma.setBackground(new java.awt.Color(0, 51, 153));
         buttonIsma.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonIsma.setForeground(new java.awt.Color(255, 255, 255));
         buttonIsma.setText("PROFIL ISMA ");
 
         buttonAnna.setBackground(new java.awt.Color(0, 51, 153));
         buttonAnna.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonAnna.setForeground(new java.awt.Color(255, 255, 255));
         buttonAnna.setText("PROFIL ANNA ");
 
         buttonAura.setBackground(new java.awt.Color(0, 51, 153));
         buttonAura.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonAura.setForeground(new java.awt.Color(255, 255, 255));
         buttonAura.setText("PROFIL AURA ");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
