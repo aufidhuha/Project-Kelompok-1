@@ -174,6 +174,7 @@ public class IsmaFrame extends javax.swing.JFrame {
     private void BtnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnBackActionPerformed
         // TODO add your handling code here:
         dispose();
+        new mainFrame().setVisible(true);
     }//GEN-LAST:event_BtnBackActionPerformed
 
     /**

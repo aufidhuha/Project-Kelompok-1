@@ -172,6 +172,7 @@ public class auraa_frame extends javax.swing.JFrame {
     private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
         // TODO add your handling code here:
         dispose();
+        new mainFrame().setVisible(true);
     }//GEN-LAST:event_btnbackActionPerformed
 
     /**

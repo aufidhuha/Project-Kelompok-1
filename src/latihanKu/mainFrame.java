@@ -78,26 +78,51 @@ public class mainFrame extends javax.swing.JFrame {
         buttonHelmy.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buttonHelmy.setForeground(new java.awt.Color(255, 255, 255));
         buttonHelmy.setText("PROFIL HELMY ");
+        buttonHelmy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonHelmyActionPerformed(evt);
+            }
+        });
 
         buttonWahyu.setBackground(new java.awt.Color(0, 51, 153));
         buttonWahyu.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buttonWahyu.setForeground(new java.awt.Color(255, 255, 255));
         buttonWahyu.setText("PROFIL WAHYU ");
+        buttonWahyu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonWahyuActionPerformed(evt);
+            }
+        });
 
         buttonIsma.setBackground(new java.awt.Color(0, 51, 153));
         buttonIsma.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buttonIsma.setForeground(new java.awt.Color(255, 255, 255));
         buttonIsma.setText("PROFIL ISMA ");
+        buttonIsma.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonIsmaActionPerformed(evt);
+            }
+        });
 
         buttonAnna.setBackground(new java.awt.Color(0, 51, 153));
         buttonAnna.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buttonAnna.setForeground(new java.awt.Color(255, 255, 255));
         buttonAnna.setText("PROFIL ANNA ");
+        buttonAnna.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonAnnaActionPerformed(evt);
+            }
+        });
 
         buttonAura.setBackground(new java.awt.Color(0, 51, 153));
         buttonAura.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buttonAura.setForeground(new java.awt.Color(255, 255, 255));
         buttonAura.setText("PROFIL AURA ");
+        buttonAura.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonAuraActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -156,6 +181,34 @@ public class mainFrame extends javax.swing.JFrame {
         dispose();
         new aufiFrame().setVisible(true);
     }//GEN-LAST:event_buttonAufiActionPerformed
+
+    private void buttonHelmyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonHelmyActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_buttonHelmyActionPerformed
+
+    private void buttonWahyuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonWahyuActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        new wahyuframe().setVisible(true);
+    }//GEN-LAST:event_buttonWahyuActionPerformed
+
+    private void buttonIsmaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonIsmaActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        new IsmaFrame().setVisible(true);
+    }//GEN-LAST:event_buttonIsmaActionPerformed
+
+    private void buttonAnnaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonAnnaActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        new ayaFrame().setVisible(true);
+    }//GEN-LAST:event_buttonAnnaActionPerformed
+
+    private void buttonAuraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonAuraActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        new auraa_frame().setVisible(true);
+    }//GEN-LAST:event_buttonAuraActionPerformed
 
     /**
      * @param args the command line arguments

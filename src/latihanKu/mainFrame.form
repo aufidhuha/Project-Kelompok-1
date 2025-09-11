@@ -158,6 +158,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="PROFIL HELMY "/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonHelmyActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonWahyu">
           <Properties>
@@ -172,6 +175,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="PROFIL WAHYU "/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonWahyuActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonIsma">
           <Properties>
@@ -186,6 +192,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="PROFIL ISMA "/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonIsmaActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonAnna">
           <Properties>
@@ -200,6 +209,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="PROFIL ANNA "/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAnnaActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="buttonAura">
           <Properties>
@@ -214,6 +226,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="PROFIL AURA "/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAuraActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

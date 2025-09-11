@@ -168,6 +168,7 @@ public class ayaFrame extends javax.swing.JFrame {
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
         // TODO add your handling code here:
         dispose();
+        new mainFrame().setVisible(true);
     }//GEN-LAST:event_btnBackActionPerformed
 
     /**
