@@ -97,7 +97,9 @@ public class aufiFrame extends javax.swing.JFrame {
 
         buttonBack.setBackground(new java.awt.Color(0, 51, 153));
         buttonBack.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buttonBack.setForeground(new java.awt.Color(255, 255, 255));
         buttonBack.setText("Back");
+        buttonBack.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         buttonBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonBackActionPerformed(evt);
