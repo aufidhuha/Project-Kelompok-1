@@ -184,6 +184,8 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void buttonHelmyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonHelmyActionPerformed
         // TODO add your handling code here:
+        dispose();
+        new HelmyFrem().setVisible(true);
     }//GEN-LAST:event_buttonHelmyActionPerformed
 
     private void buttonWahyuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonWahyuActionPerformed
